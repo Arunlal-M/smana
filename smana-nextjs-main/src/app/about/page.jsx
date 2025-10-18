@@ -9,8 +9,7 @@ import TeamOne from "./Team";
 import TestimonialOne from "../home-1/TestimonialOne";
 import FooterOne from "../home-1/FooterOne";
 import BackToTop from "../home-1/BackToTop";
-import WhatsappWidget from "./home-1/WhatsAppWidget";
-
+import WhatsappWidget from "../home-1/WhatsAppWidget";
 
 function page() {
   return (

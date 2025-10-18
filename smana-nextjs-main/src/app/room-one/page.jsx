@@ -1,41 +1,39 @@
-import React from 'react'
-import TopBar from '../home-1/TopBar'
-import HeaderOne from '../home-1/Header'
-import BreadcrumbOne from '../breadcrumb/Breadcrumb'
-import AdvanceFormTwo from '../form/AdvanceFormTwo'
-import RoomSix from '../room/RoomSix'
-import TestimonialOne from '../home-1/TestimonialOne'
-import FooterOne from '../home-1/FooterOne'
-import BackToTop from '../home-1/BackToTop'
-import GDPRCookie from '../home-1/GDPRCookie'
-import WhatsappWidget from "./home-1/WhatsAppWidget";
-
+import React from "react";
+import TopBar from "../home-1/TopBar";
+import HeaderOne from "../home-1/Header";
+import BreadcrumbOne from "../breadcrumb/Breadcrumb";
+import AdvanceFormTwo from "../form/AdvanceFormTwo";
+import RoomSix from "../room/RoomSix";
+import TestimonialOne from "../home-1/TestimonialOne";
+import FooterOne from "../home-1/FooterOne";
+import BackToTop from "../home-1/BackToTop";
+import GDPRCookie from "../home-1/GDPRCookie";
+import WhatsappWidget from "../home-1/WhatsAppWidget";
 
 function page() {
-    return (
-        <>
-            {/* <GDPRCookie
+  return (
+    <>
+      {/* <GDPRCookie
                 settings={{
                     title: "Accept Cookies & privacy",
                     message: "Cookies enable you to use shopping carts and to personalize your experience on our sites, tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches.",
                     expires: 90, // Cookie expiration in days
                 }}
             /> */}
-            {/* <TopBar /> */}
-            <HeaderOne />
-            <BreadcrumbOne
-                title="Deluxe Room"
-                description="A step up from the standard room, often with better views, more space, and additional amenities."
-            />
-            <AdvanceFormTwo />
-            <RoomSix />
-            <TestimonialOne />
-            <FooterOne />
-            <BackToTop />
-            <WhatsappWidget />
-
-        </>
-    )
+      {/* <TopBar /> */}
+      <HeaderOne />
+      <BreadcrumbOne
+        title="Deluxe Room"
+        description="A step up from the standard room, often with better views, more space, and additional amenities."
+      />
+      <AdvanceFormTwo />
+      <RoomSix />
+      <TestimonialOne />
+      <FooterOne />
+      <BackToTop />
+      <WhatsappWidget />
+    </>
+  );
 }
 
-export default page
+export default page;
