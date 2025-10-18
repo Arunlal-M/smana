@@ -76,7 +76,7 @@ function AboutOne() {
                 create unforgettable moments for our guests.
               </p>
               <Link
-                href="#"
+                href="/about"
                 className="theme-btn btn-style fill no-border wow fadeInUp"
                 data-wow-delay=".5s"
               >

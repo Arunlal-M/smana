@@ -49,11 +49,10 @@ function FacilitiesSeven() {
                                                     <img src="/assets/images/icon/security.svg" alt="" />
                                                 </div>
                                                 <Link href="#">
-                                                    <h6 className="card-title h6 mb-15">24-Hour Security</h6>
+                                                    <h6 className="card-title h6 mb-15">Safety & Security</h6>
                                                 </Link>
                                                 <p className="card-text">
-                                                    On-site security personnel and best surveillance. from
-                                                    standard to luxury suites,Secure storage for valuables.
+                                                    Your peace of mind is our priority. Enjoy 24/7 on-site security, advanced surveillance, and secure storage for your valuables.
                                                 </p>
                                             </div>
                                         </div>
@@ -65,11 +64,10 @@ function FacilitiesSeven() {
                                                     <img src="/assets/images/icon/gym.svg" alt="" />
                                                 </div>
                                                 <Link href="#">
-                                                    <h6 className="card-title h6 mb-15">Fitness Center</h6>
+                                                    <h6 className="card-title h6 mb-15">Fitness & Wellness</h6>
                                                 </Link>
                                                 <p className="card-text">
-                                                    Equipped with exercise machines and weights.Offering
-                                                    massages, facials, and other treatments.
+                                                    Stay active and rejuvenated at our fully equipped fitness center. From cardio and strength training to revitalizing massages and wellness treatments, we’ve got your well-being covered.
                                                 </p>
                                             </div>
                                         </div>
@@ -84,8 +82,7 @@ function FacilitiesSeven() {
                                                     <h6 className="card-title h6 mb-15">Swimming Pool</h6>
                                                 </Link>
                                                 <p className="card-text">
-                                                    Indoor or outdoor pools for leisure or exercise.Offering
-                                                    massages, facials, and other treatments
+                                                    Dive into relaxation in our sparkling indoor or outdoor pools. Perfect for a refreshing swim or leisurely moments, complemented by spa-like experiences.
                                                 </p>
                                             </div>
                                         </div>
