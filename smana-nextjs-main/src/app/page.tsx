@@ -18,6 +18,7 @@ import GalleryOne from "./home-1/GalleryOne";
 import FooterOne from "./home-1/FooterOne";
 import BackToTop from "./home-1/BackToTop";
 import GDPRCookie from "./home-1/GDPRCookie";
+import WhatsappWidget from "./home-1/WhatsAppWidget";
 function page() {
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", "dark");
@@ -51,6 +52,7 @@ function page() {
       <GalleryOne />
       <FooterOne />
       <BackToTop />
+      <WhatsappWidget />
     </>
   );
 }

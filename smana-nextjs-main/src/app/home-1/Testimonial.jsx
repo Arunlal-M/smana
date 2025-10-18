@@ -42,7 +42,7 @@ const TestimonialSection = ({ className }) => {
                     <div className="col-lg-6">
                         <div className="section__topbar">
                             <span className="h6 subtitle__icon__three mx-auto">Testimonial</span>
-                            <h2 className="section__title">What Our Client Say</h2>
+                            <h2 className="section__title">Tales of Timeless Memories</h2>
                         </div>
                     </div>
                 </div>

@@ -8,6 +8,8 @@ import ServiceSix from "./Service";
 import FooterOne from "../home-1/FooterOne";
 import BackToTop from "../home-1/BackToTop";
 import GDPRCookie from "../home-1/GDPRCookie";
+import WhatsappWidget from "./home-1/WhatsAppWidget";
+
 
 function page() {
   return (
@@ -23,13 +25,14 @@ function page() {
       <HeaderOne />
       <BreadcrumbOne
         title="Events"
-        description="Our diverse range of activities is designed to offer something for everyone."
+        description="Make Your Event Memorable."
       />
       <EventTwo />
       <NewsletterThree />
       <ServiceSix />
       <FooterOne />
       <BackToTop />
+      <WhatsappWidget />
     </>
   );
 }

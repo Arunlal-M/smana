@@ -22,11 +22,11 @@ function ServiceSix() {
                                     <i className="flaticon-24-hours" />
                                 </div>
                                 <Link href="#" className="h6">
-                                    24-Hour Security
+                                    Safety & Security
                                 </Link>
                                 <p>
-                                    A 24-hour security service provides and surveillance, properties,
-                                    or sensitive information around the clock.
+                                    Your peace of mind is our priority. Enjoy 24/7 on-site security, advanced surveillance,
+                                    and secure storage for your valuables.
                                 </p>
                             </div>
                             {/* single service item end */}
@@ -36,11 +36,11 @@ function ServiceSix() {
                                     <i className="flaticon-wifi" />
                                 </div>
                                 <Link href="#" className="h6">
-                                    Free Wifi
+                                    Modern Connectivity
                                 </Link>
                                 <p>
-                                    Free Wi-Fi has become an essential service in our increasingly
-                                    connected world. It by people to access the internet
+                                    Stay connected with free high-speed internet throughout the property and Smart TVs in every room,
+                                    so entertainment and convenience are always at your fingertips.
                                 </p>
                             </div>
                             {/* single service item end */}

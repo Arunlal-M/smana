@@ -15,15 +15,13 @@ export default function Download() {
           {/* Left Side: Text + QR codes */}
           <div className="content">
             <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-              Get the App
+              Immerse in Elegance
             </span>
             <h2 className="content__title wow fadeInUp">
-              Go further with the Entravel app (iOS &amp; Android)
+              Manage your stay easily with the Smana App.
             </h2>
             <p className="content__subtitle wow fadeInUp" data-wow-delay=".3s">
-              Save on select hotels and experience a smooth booking experience
-              through the app. Our app often offers app-only deals to help you
-              save more on luxury hotels.
+              Scan the QR code below to get started.
             </p>
 
             <div className="qr-grid wow fadeInUp pb-5" data-wow-delay=".5s">

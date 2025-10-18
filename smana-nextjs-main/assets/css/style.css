@@ -8013,9 +8013,12 @@ textarea:focus-visible, input:focus-visible {
 }
 
 /* Glass Morphism Header Styles */
-/* Transparent Header Styles */
+/* Glass Morphism Header Styles */
 .header__transparent {
-  background: transparent !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -8026,51 +8029,92 @@ textarea:focus-visible, input:focus-visible {
 
 .header__transparent .navigation__menu--item__link {
   color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.header__transparent .navigation__menu--item__link:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .header__transparent .theme-btn.btn-style.border {
-  border-color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
   color: #fff !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
 }
 
 .header__transparent .theme-btn.btn-style.border:hover {
-  background: #fff !important;
+  background: rgba(255, 255, 255, 0.9) !important;
   color: #000 !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .header__transparent .theme-btn.btn-style.fill {
-  background: #fff !important;
+  background: rgba(255, 255, 255, 0.9) !important;
   color: #000 !important;
-  border-color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
 }
 
 .header__transparent .theme-btn.btn-style.fill:hover {
-  background: transparent !important;
-  color: #fff !important;
+  background: rgba(255, 255, 255, 1) !important;
+  color: #000 !important;
+  border-color: rgba(255, 255, 255, 1) !important;
 }
 
-/* Ensure the logo is visible on transparent background */
+/* Ensure the logo is visible on glass background */
 .header__transparent .main__logo img {
   filter: brightness(0) invert(1);
 }
 
-/* Sticky header should have normal background */
+/* Dropdown menus glass effect */
+.header__transparent .submenu,
+.header__transparent .has__mega__menu {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.header__transparent .submenu li a,
+.header__transparent .has__mega__menu .menu__item a span {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.header__transparent .submenu li a:hover,
+.header__transparent .has__mega__menu .menu__item a:hover span {
+  color: rgba(255, 255, 255, 0.8) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Sticky header should have solid background */
 .main__header.is__sticky {
-  background: #000 !important; /* Or your original sticky background color */
+  background: #000 !important;
+  backdrop-filter: none;
   position: fixed;
   top: 0;
   animation: slideDown 0.5s ease;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 
 .main__header.is__sticky .navigation__menu--item__link {
-  color: inherit !important; /* Reset to original colors */
+  color: inherit !important;
 }
 
 .main__header.is__sticky .main__logo img {
-  filter: none !important; /* Reset logo filter */
+  filter: none !important;
 }
 
-/* Banner area adjustments for transparent header */
+.main__header.is__sticky .theme-btn.btn-style.border {
+  background: transparent !important;
+  backdrop-filter: none;
+}
+
+/* Banner area adjustments for glass header */
 .banner__area.is__home__video {
   position: relative;
   height: 800px;
@@ -8131,6 +8175,19 @@ textarea:focus-visible, input:focus-visible {
   }
   to {
     transform: translateY(0);
+  }
+}
+
+/* Mobile responsive adjustments */
+@media screen and (max-width: 991px) {
+  .header__transparent {
+    background: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(8px);
+  }
+  
+  .header__transparent .menu__btn {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #000 !important;
   }
 }
 

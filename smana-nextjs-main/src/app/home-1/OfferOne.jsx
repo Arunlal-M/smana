@@ -13,7 +13,7 @@ function OfferOne() {
                                 <span className="h6 subtitle__icon__three mx-auto">
                                     Special Offer
                                 </span>
-                                <h2 className="section__title">Special Offer</h2>
+                                <h2 className="section__title">Special Deals for You</h2>
                             </div>
                         </div>
                     </div>

@@ -89,7 +89,7 @@ function ContactOne() {
                                 <iframe
                                     className="w-100"
                                     height={560}
-                                    src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=phuket+(My%20Business%20Name)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14023.407564441395!2d55.27282648027855!3d25.251028156033435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f431abd59735b%3A0xa5572af81b501276!2sSmana%20Hotel%20Al%20Raffa!5e0!3m2!1sen!2sin!4v1760785124940!5m2!1sen!2sin"
                                     title="Map showing the location of My Business"
                                 />
                             </div>
@@ -97,21 +97,24 @@ function ContactOne() {
                         <div className="col-lg-6">
                             <div className="contact__info">
                                 <div className="contact__info__item">
-                                    <h4>Hotel Info Center</h4>
+                                    <h4>Smana Hotel Al Raffa Info Center</h4>
                                     <p>
                                         Open Hours: Monday – Sunday <br />
-                                        Telephone:&nbsp;+12505550199 <br />
-                                        Fax: +12505550199 <br />
-                                        Email:&nbsp;info@moonlit.com
+                                        {/* Telephone:&nbsp;+971-4329966,&nbsp;&nbsp;+971-4329027  <br /> */}
+                                        Check-in time: 2:00 pm  <br />
+                                        Check-out time: 12:00 pm  <br />
+                                        {/* Fax: <br /> */}
+                                        Email:&nbsp;smana@gmail.com
                                     </p>
                                 </div>
                                 <div className="contact__info__item">
-                                    <h4>Hotel location</h4>
+                                    <h4>Smana Hotel location</h4>
                                     <p>
-                                        Address: The Ritz-Carlton (California, USA) <br />
-                                        Telephone:&nbsp;+12505550199 <br />
-                                        Fax: +12505550199 <br />
-                                        Email:&nbsp;info@moonlit.com
+                                        37th St, Al Raffa – Dubai. United Arab Emirates  <br />
+                                        P.O Box 49789  <br />
+                                        Telephone:&nbsp;+971-4329966,&nbsp;&nbsp;+971-4329027  <br />
+                                        {/* Fax:  <br /> */}
+                                        Email:&nbsp;smana@gmail.com
                                     </p>
                                 </div>
                             </div>

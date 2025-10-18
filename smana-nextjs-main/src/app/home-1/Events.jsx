@@ -42,7 +42,7 @@ function Events() {
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                             <div className="section__topbar">
                                 <span className="h6 subtitle__icon__three mx-auto">Events</span>
-                                <h2 className="section__title">Plan Your Perfect Event</h2>
+                                <h2 className="section__title d-flex flex-wrap">Make&nbsp;Your&nbsp;Event&nbsp;Memorable</h2>
                             </div>
                         </div>
                     </div>
@@ -55,11 +55,11 @@ function Events() {
                                 data-aos-delay={300 + (index * 100)}
                             >
                                 <div className="position-relative overflow-hidden shadow-sm rounded" 
-                                     style={{ 
-                                         height: '400px', 
-                                         cursor: 'pointer',
-                                         transition: 'all 0.4s ease'
-                                     }}>
+                                    style={{ 
+                                        height: '400px', 
+                                        cursor: 'pointer',
+                                        transition: 'all 0.4s ease'
+                                    }}>
                                     <img 
                                         src={`/assets/images/events/${event.image}`} 
                                         alt={event.name} 

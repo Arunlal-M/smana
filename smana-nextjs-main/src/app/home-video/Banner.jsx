@@ -20,7 +20,7 @@ function BannerVideo() {
                       <div className="swiper-slide">
                         <div className="video__text__slider__item">
                           <h1 className="video__text__slider__title">
-                            Luxury Stay Hotel Experience Comfort &amp; Elegance
+                            Where the art of Luxury Meets Timeless Memories.
                           </h1>
                         </div>
                       </div>

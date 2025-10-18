@@ -1,4 +1,5 @@
 'use client'
+import BookingWidget from '@/components/BookingWidget';
 import React, { useState} from 'react'
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
@@ -10,10 +11,9 @@ function AdvanceFormTwo() {
         <div className="rts__section advance__search__section is__page has__border pt-120 pb-60">
             <div className="container">
                 <div className="row">
-                    <form action="#" method="post" className="advance__search">
+                    {/* <form action="#" method="post" className="advance__search">
                         <div className="advance__search__wrapper wow fadeInUp">
-                            {/* Check In Date */}
-                            <div className="query__input">
+                             <div className="query__input">
                                 <label htmlFor="check__in" className="query__label">
                                     Check In
                                 </label>
@@ -27,8 +27,7 @@ function AdvanceFormTwo() {
                                     <i className="flaticon-calendar" />
                                 </div>
                             </div>
-                            {/* Check Out Date */}
-                            <div className="query__input">
+                             <div className="query__input">
                                 <label htmlFor="check__out" className="query__label">
                                     Check Out
                                 </label>
@@ -42,8 +41,7 @@ function AdvanceFormTwo() {
                                     <i className="flaticon-calendar" />
                                 </div>
                             </div>
-                            {/* Adult Selection */}
-                            <div className="query__input">
+                             <div className="query__input">
                                 <label htmlFor="adult" className="query__label">Adult</label>
                                 <select name="adult" id="adult" className="form-select">
                                     {[...Array(9)].map((_, i) => (
@@ -54,8 +52,7 @@ function AdvanceFormTwo() {
                                     <i className="flaticon-user" />
                                 </div>
                             </div>
-                            {/* Child Selection */}
-                            <div className="query__input">
+                             <div className="query__input">
                                 <label htmlFor="child" className="query__label">Child</label>
                                 <select name="child" id="child" className="form-select">
                                     {[...Array(9)].map((_, i) => (
@@ -66,12 +63,12 @@ function AdvanceFormTwo() {
                                     <i className="flaticon-user" />
                                 </div>
                             </div>
-                            {/* Submit Button */}
-                            <button className="theme-btn btn-style fill no-border search__btn" type="submit">
+                             <button className="theme-btn btn-style fill no-border search__btn" type="submit">
                                 <span>Check Now</span>
                             </button>
                         </div>
-                    </form>
+                    </form> */}
+                    <BookingWidget />
                 </div>
             </div>
         </div>

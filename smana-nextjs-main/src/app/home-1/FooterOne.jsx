@@ -94,10 +94,15 @@ function FooterOne() {
                 <span className="widget__title">Contact Us</span>
                 <ul>
                   <li>
-                    <Link aria-label="footer__contact" href="tel:+12505550199">
-                      <i className="flaticon-phone-flip" /> +12505550199
+                    <Link aria-label="footer__contact" href="tel:+971-4329966">
+                      <i className="flaticon-phone-flip" /> +971-4329966 &nbsp; <i className="flaticon-phone-flip" /> +971-4329027
+
+                    </Link></li>
+                  {/* <li>
+                    <Link aria-label="footer__contact" href="tel:+971-4329027">
+                      <i className="flaticon-phone-flip" /> +971-4329027
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       aria-label="footer__contact"
@@ -110,7 +115,8 @@ function FooterOne() {
                   <li>
                     <Link aria-label="footer__contact" href="#">
                       <i className="flaticon-marker" />
-                      M5T 2L9 Toronto, Canada
+                      37th St, Al Raffa – Dubai. United Arab Emirates 
+                      P.O Box 49789
                     </Link>
                   </li>
                 </ul>

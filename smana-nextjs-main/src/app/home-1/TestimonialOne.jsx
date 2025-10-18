@@ -20,7 +20,7 @@ function TestimonialOne() {
                                 <span className="h6 subtitle__icon__two d-block wow fadeInUp">
                                     Testimonial
                                 </span>
-                                <h2 className="content__title h2 lh-1">What Our Client Say</h2>
+                                <h2 className="content__title h2 lh-1">Tales of Timeless Memories</h2>
                             </div>
                             <div className="slider__navigation">
                                 <div className="nav__btn button-next">

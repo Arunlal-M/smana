@@ -33,7 +33,7 @@ function HeaderOne() {
     return (
         <>
             {/* header menu */}
-            <header className={`main__header header__function ${hydrated && isSticky ? 'is__sticky' : 'header__transparent'}`}>
+            <header className={`main__header header__function header__transparent`}>
                 <div className="container">
                     <div className="row">
                         <div className="main__header__wrapper">
@@ -141,11 +141,12 @@ function HeaderOne() {
                                                     </div>
                                                 </div> */}
                                             </li>
-                                            <li className="navigation__menu--item has-child has-arrow">
-                                                <Link href="/" className="navigation__menu--item__link">
+                                            {/* <li className="navigation__menu--item has-child has-arrow"> */}
+                                            <li className="navigation__menu--item has-child">
+                                                <Link href="/room-one" className="navigation__menu--item__link">
                                                     <span style={{ color: "#fff !important" }}>Rooms</span>
                                                 </Link>
-                                                <ul className="submenu sub__style" role="menu">
+                                                {/* <ul className="submenu sub__style" role="menu">
                                                     <li role="menuitem" className="has-child has-arrow">
                                                         <Link href="/">Room Style</Link>
                                                         <ul className="sub__style" role="menu">
@@ -174,7 +175,7 @@ function HeaderOne() {
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
                                                 <Link href="/" className="navigation__menu--item__link">
@@ -262,7 +263,8 @@ function HeaderOne() {
 
                                 {/* Book Now Button */}
                                 {/* <Link href="/room/1" className="theme-btn btn-style sm-btn bg-black border d-none d-lg-block"> */}
-                                <Link href="/" className="theme-btn btn-style md-btn border d-none d-lg-block">
+                                <Link href="https://www.swiftbook.io/inst/#/home?propertyId=922NTB4KvUyMULPhfaf6jIByDI9bB28KjeIgLsaAONEt5hRdfSOYyNTI=&JDRN=Y&RoomID=230473,230474,230475,230476&ap=1&gsId=922NTB4KvUyMULPhfaf6jIByDI9bB28KjeIgLsaAONEt5hRdfSOYyNTI="
+                                    className="theme-btn btn-style md-btn border d-none d-lg-block">
                                     <span style={{ color: "#fff !important" }}>Book Now</span>
                                 </Link>
 

@@ -24,7 +24,10 @@ function FacilitiesOne() {
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                             <div className="section__topbar">
                                 <span className="h6 subtitle__icon__three mx-auto">Facilities</span>
-                                <h2 className="section__title">Hotel Facilities</h2>
+                                <h2 className="section__title">A Symphony of Comfort</h2>
+                                <p className="content__subtitle wow fadeInUp" data-wow-delay=".3s">
+                                    Relax, recharge, and enjoy everything we offer.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -51,10 +54,10 @@ function FacilitiesOne() {
                                         <img src="/assets/images/icon/security.svg" alt="" />
                                     </div>
                                     <Link href="/">
-                                        <h6 className="card-title h6 mb-15">24-Hour Security</h6>
+                                        <h6 className="card-title h6 mb-15">Safety & Security</h6>
                                     </Link>
                                     <p className="card-text">
-                                        On-site security personnel and best surveillance. Secure storage for valuables.
+                                        Your peace of mind is our priority. Enjoy 24/7 on-site security, advanced surveillance, and secure storage for your valuables.
                                     </p>
                                 </div>
                             </div>
@@ -66,10 +69,12 @@ function FacilitiesOne() {
                                         <img src="/assets/images/icon/gym.svg" alt="" />
                                     </div>
                                     <Link href="/">
-                                        <h6 className="card-title h6 mb-15">Fitness Center</h6>
+                                        <h6 className="card-title h6 mb-15">Fitness & Wellness</h6>
                                     </Link>
                                     <p className="card-text">
-                                        Equipped with exercise machines and weights. Offering massages, facials, and other treatments.
+                                        Stay active and rejuvenated at our fully equipped fitness center.
+                                        From cardio and strength training to revitalizing massages and wellness treatments,
+                                        we’ve got your well-being covered.
                                     </p>
                                 </div>
                             </div>
@@ -84,7 +89,7 @@ function FacilitiesOne() {
                                         <h6 className="card-title h6 mb-15">Swimming Pool</h6>
                                     </Link>
                                     <p className="card-text">
-                                        Indoor or outdoor pools for leisure or exercise. Offering massages, facials, and other treatments.
+                                        Dive into relaxation in our sparkling indoor or outdoor pools. Perfect for a refreshing swim or leisurely moments, complemented by spa-like experiences.
                                     </p>
                                 </div>
                             </div>

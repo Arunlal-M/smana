@@ -6,18 +6,20 @@ import ContactOne from "./Contact";
 import FooterOne from "../home-1/FooterOne";
 import BackToTop from "../home-1/BackToTop";
 import GDPRCookie from "../home-1/GDPRCookie";
+import WhatsappWidget from "./home-1/WhatsAppWidget";
+
 
 function page() {
   return (
     <>
-      <GDPRCookie
+      {/* <GDPRCookie
         settings={{
           title: "Accept Cookies & privacy",
           message:
             "Cookies enable you to use shopping carts and to personalize your experience on our sites, tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches.",
           expires: 90, // Cookie expiration in days
         }}
-      />
+      /> */}
       {/* <TopBar /> */}
       <HeaderOne />
       <BreadcrumbOne
@@ -27,6 +29,7 @@ function page() {
       <ContactOne />
       <FooterOne />
       <BackToTop />
+      <WhatsappWidget />
     </>
   );
 }
